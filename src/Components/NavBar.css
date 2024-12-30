@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-container {
@@ -48,6 +49,8 @@
     background-color: #00ffaa;
     color: #fff;
 }
+
+
 
 
 @media screen and (min-width: 1200px) {
