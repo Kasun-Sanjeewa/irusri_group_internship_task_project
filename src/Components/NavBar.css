@@ -59,18 +59,19 @@
 
 
 .favorites-button {
-    padding: 8px 16px;
-    background-color: #41a6e9;
+    padding: 15px 25px;
+    background-color: #052258;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
-    margin-left: 10px;
+    margin-right: 70px;
 }
 
 .favorites-button:hover {
-    background-color: #0086c3;
+    background-color: #38c09e;
+    border-color: #fff;
 }
 
 

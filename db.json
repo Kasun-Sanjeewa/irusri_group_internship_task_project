@@ -2,50 +2,51 @@
   "favourites": [
     {
       "kind": "books#volume",
-      "id": "Sv36Gm741L0C",
-      "etag": "aJWp+xfIXMw",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/Sv36Gm741L0C",
+      "id": "vHutzwEACAAJ",
+      "etag": "dVFSR2OMgpw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vHutzwEACAAJ",
       "volumeInfo": {
-        "title": "Programming with Java",
-        "publisher": "Pearson Education India",
-        "publishedDate": "2008-09",
-        "description": "Programming with Java is designed to help the reader understand the concepts of Java programming language. It includes an exhaustive coverage of additional appendices on keywords, operators and supplementary programs; additional chapters on Collect.",
+        "title": "Wild",
+        "subtitle": "A Journey from Lost to Found",
+        "authors": [
+          "Cheryl Strayed"
+        ],
+        "publishedDate": "2023-08",
+        "description": "'One of the best books I've read in the last five or ten years... Wild is angry, brave, sad, self-knowing, redemptive, raw, compelling, and brilliantly written, and I think it's destined to be loved by a lot of people, men and women, for a very long time.' Nick Hornby",
         "industryIdentifiers": [
           {
             "type": "ISBN_10",
-            "identifier": "8131720802"
+            "identifier": "1838959548"
           },
           {
             "type": "ISBN_13",
-            "identifier": "9788131720806"
+            "identifier": "9781838959548"
           }
         ],
         "readingModes": {
           "text": false,
-          "image": true
+          "image": false
         },
-        "pageCount": 756,
+        "pageCount": 0,
         "printType": "BOOK",
         "categories": [
-          "C++ (Computer program language)"
+          "Biography & Autobiography"
         ],
-        "averageRating": 3,
-        "ratingsCount": 3,
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "0.9.7.0.preview.1",
+        "contentVersion": "preview-1.0.0",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=Sv36Gm741L0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=Sv36Gm741L0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=vHutzwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vHutzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=Sv36Gm741L0C&pg=PA692&dq=java&hl=&cd=3&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=Sv36Gm741L0C&dq=java&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Programming_with_Java.html?hl=&id=Sv36Gm741L0C"
+        "previewLink": "http://books.google.com/books?id=vHutzwEACAAJ&dq=Hiking&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=vHutzwEACAAJ&dq=Hiking&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Wild.html?hl=&id=vHutzwEACAAJ"
       },
       "saleInfo": {
         "country": "LK",
@@ -54,75 +55,73 @@
       },
       "accessInfo": {
         "country": "LK",
-        "viewability": "PARTIAL",
-        "embeddable": true,
+        "viewability": "NO_PAGES",
+        "embeddable": false,
         "publicDomain": false,
         "textToSpeechPermission": "ALLOWED",
         "epub": {
           "isAvailable": false
         },
         "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Programming_with_Java-sample-pdf.acsm?id=Sv36Gm741L0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          "isAvailable": false
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=Sv36Gm741L0C&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
+        "webReaderLink": "http://play.google.com/books/reader?id=vHutzwEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "... <b>Java</b> supports exceptions with the try , catch , and throw keywords . exception handler a block of code that reacts to a specific type of exception . If the exception is for an error that the program can recover from , the program can&nbsp;..."
+        "textSnippet": "&#39;One of the best books I&#39;ve read in the last five or ten years."
       }
     },
     {
       "kind": "books#volume",
-      "id": "TRUdyfwdaSoC",
-      "etag": "iaGxrO6Yugw",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/TRUdyfwdaSoC",
+      "id": "bp9e19-SbsUC",
+      "etag": "aOJExmRL3Ns",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/bp9e19-SbsUC",
       "volumeInfo": {
-        "title": "Java for Students",
+        "title": "101 More Music Games for Children",
+        "subtitle": "New Fun and Learning with Rhythm and Song",
         "authors": [
-          "Doug Bell",
-          "Mike Parr"
+          "Ger Storms",
+          "Jerry Storms"
         ],
-        "publisher": "Pearson Educación",
+        "publisher": "Hunter House",
         "publishedDate": "2001",
-        "description": "Aware that many students need a careful introduction to programming and that they respond well to graphical illustration, this concise book adopts a visual approach to programming. Throughout the text, programs that use graphical images are emphasized to clearly demonstrate all the important programming principles. The authors use a spiral approach to programming concepts; introducing concepts simply early on, then in a more sophisticated way later, (e.g., objects are integrated throughout five chapters). Java for Students emphasizes the use of applets but also shows how to program free-standing applications. The authors have been careful to put together a text that covers the powerful features of Java and presents the language to students as both a fun and useful tool.",
+        "description": "Music games are relaxing and playful. They encourage creativity both in children's imagination and expression. All players need is a willingness to have fun and to experience the joys of interacting with others. The games include rhythm games, dance and movement games, card and board games, and musical projects. All of the games stress humor, challenge, surprise and cooperation rather than competition.",
         "industryIdentifiers": [
           {
             "type": "ISBN_10",
-            "identifier": "9702601444"
+            "identifier": "0897932986"
           },
           {
             "type": "ISBN_13",
-            "identifier": "9789702601449"
+            "identifier": "9780897932981"
           }
         ],
         "readingModes": {
           "text": false,
           "image": true
         },
-        "pageCount": 670,
+        "pageCount": 180,
         "printType": "BOOK",
         "categories": [
-          "Computers"
+          "Games & Activities"
         ],
-        "averageRating": 4.5,
-        "ratingsCount": 4,
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "1.4.6.0.preview.1",
+        "contentVersion": "0.6.8.0.preview.1",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=TRUdyfwdaSoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=TRUdyfwdaSoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=bp9e19-SbsUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=bp9e19-SbsUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=TRUdyfwdaSoC&pg=PA16&dq=java&hl=&cd=4&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=TRUdyfwdaSoC&dq=java&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Java_for_Students.html?hl=&id=TRUdyfwdaSoC"
+        "previewLink": "http://books.google.com/books?id=bp9e19-SbsUC&pg=PT1&dq=GAmes&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=bp9e19-SbsUC&dq=GAmes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/101_More_Music_Games_for_Children.html?hl=&id=bp9e19-SbsUC"
       },
       "saleInfo": {
         "country": "LK",
@@ -140,14 +139,242 @@
         },
         "pdf": {
           "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Java_for_Students-sample-pdf.acsm?id=TRUdyfwdaSoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          "acsTokenLink": "http://books.google.com/books/download/101_More_Music_Games_for_Children-sample-pdf.acsm?id=bp9e19-SbsUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=TRUdyfwdaSoC&hl=&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=bp9e19-SbsUC&hl=&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "... <b>Java</b> ( y la descripción del applet termina con &lt; / applet &gt; ) . La palabra code introduce el nom- bre del archivo que contiene el applet de <b>Java</b> ; en este caso es saludo.class . Las palabras width y height especifican el tamaño del área&nbsp;..."
+        "textSnippet": "... <b>Games</b> are organized by the skills they develop . Simple icons indicate appropriate age levels , times of play , and group size . Most <b>games</b> are noncompetitive - they encourage and reward children for participating , not for winning- and&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "vABUDDf2kSsC",
+      "etag": "1wOEAjXA4Pk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vABUDDf2kSsC",
+      "volumeInfo": {
+        "title": "Game Addiction",
+        "subtitle": "The Experience and the Effects",
+        "authors": [
+          "Neils Clark",
+          "P. Shavaun Scott"
+        ],
+        "publisher": "McFarland",
+        "publishedDate": "2009-06-08",
+        "description": "An eleven-year-old boy strangled an elderly woman for the equivalent of five dollars in 2007, then buried her body under a thin layer of sand. He told the police that he needed the money to play online videogames. Just a month later, an eight-year-old Norwegian boy saved his younger sister's life by threatening an attacking moose and then feigning death when the moose attacked him--skills he said he learned while playing World of Warcraft. As these two instances show, videogames affect the minds, bodies, and lives of millions of gamers, negatively and positively. This book approaches videogame addiction from a cross-disciplinary perspective, bridging the divide between liberal arts academics and clinical researchers. The topic of addiction is examined neutrally, using accepted research in neuroscience, media studies, and developmental psychology.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780786453498"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0786453494"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 212,
+        "printType": "BOOK",
+        "categories": [
+          "Games & Activities"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vABUDDf2kSsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vABUDDf2kSsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=vABUDDf2kSsC&pg=PA93&dq=GAmes&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=vABUDDf2kSsC&dq=GAmes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Game_Addiction.html?hl=&id=vABUDDf2kSsC"
+      },
+      "saleInfo": {
+        "country": "LK",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "LK",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Game_Addiction-sample-epub.acsm?id=vABUDDf2kSsC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Game_Addiction-sample-pdf.acsm?id=vABUDDf2kSsC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vABUDDf2kSsC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>games</b> sell the best . We can&#39;t won- der why they get made the most . While society tends to agree that enjoy- ing entertainment is legitimate , there ... <b>games</b> a sometimes genuine addition to his 93 Four - Anatomy of a <b>Game</b> Addiction."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "OSgPEAAAQBAJ",
+      "etag": "Rb7r0rGGKbg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OSgPEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Gaming Utopia",
+        "subtitle": "Ludic Worlds in Art, Design, and Media",
+        "authors": [
+          "Claudia Costa Pederson"
+        ],
+        "publisher": "Indiana University Press",
+        "publishedDate": "2021-04-06",
+        "description": "In Gaming Utopia: Ludic Worlds in Art, Design, and Media, Claudia Costa Pederson analyzes modernist avant-garde and contemporary video games to challenge the idea that gaming is an exclusively white, heterosexual, male, corporatized leisure activity and reenvisions it as a catalyst for social change. By looking at over fifty projects that together span a century and the world, Pederson explores the capacity for sociopolitical commentary in virtual and digital realms and highlights contributions to the history of gaming by women, queer, and transnational artists. The result is a critical tool for understanding video games as imaginative forms of living that offer alternatives to our current reality. With an interdisciplinary approach, Gaming Utopia emphasizes how game design, creation, and play can become political forms of social protest and examines the ways that games as art open doors to a more just and peaceful world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780253054500"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0253054508"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 281,
+        "printType": "BOOK",
+        "categories": [
+          "Games & Activities"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OSgPEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OSgPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=OSgPEAAAQBAJ&pg=PA15&dq=GAmes&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=OSgPEAAAQBAJ&dq=GAmes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Gaming_Utopia.html?hl=&id=OSgPEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "LK",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "LK",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Gaming_Utopia-sample-pdf.acsm?id=OSgPEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=OSgPEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>games</b>.30 These <b>games</b> operate as rhetorical tools and as propositional statements first emerging from Latin American designers. Many of these <b>games</b> are transnational collaborations between designers from First Nation, feminist, and queer&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "BV4KBAAAQBAJ",
+      "etag": "XHxaMLsp3cQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/BV4KBAAAQBAJ",
+      "volumeInfo": {
+        "title": "Introduction to Game Analysis",
+        "authors": [
+          "Clara Fernández-Vara"
+        ],
+        "publisher": "Routledge",
+        "publishedDate": "2014-07-17",
+        "description": "Game analysis allows us to understand games better, providing insight into the player-game relationship, the construction of the game, and its sociocultural relevance. As the field of game studies grows, videogame writing is evolving from the mere evaluation of gameplay, graphics, sound, and replayablity, to more reflective writing that manages to convey the complexity of a game and the way it is played in a cultural context. Introduction to Game Analysis serves as an accessible guide to analyzing games using strategies borrowed from textual analysis. Clara Fernández-Vara’s concise primer provides instruction on the basic building blocks of game analysis—examination of context, content and reception, and formal qualities—as well as the vocabulary necessary for talking about videogames' distinguishing characteristics. Examples are drawn from a range of games, both digital and non-digital—from Bioshock and World of Warcraft to Monopoly—and the book provides a variety of exercises and sample analyses, as well as a comprehensive ludography and glossary.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781134474134"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "113447413X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 289,
+        "printType": "BOOK",
+        "categories": [
+          "Social Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=BV4KBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=BV4KBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=BV4KBAAAQBAJ&pg=PA10&dq=GAmes&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=BV4KBAAAQBAJ&dq=GAmes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Introduction_to_Game_Analysis.html?hl=&id=BV4KBAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "LK",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "LK",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Introduction_to_Game_Analysis-sample-pdf.acsm?id=BV4KBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=BV4KBAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>games</b> ? Well , yes and no . First of all , nothing will prevent the informal analy- sis of <b>games</b> , which is second nature to so many people . What is at stake here ... <b>games</b> as activities , 10 The Whys and Wherefores of <b>Game</b> Analysis."
       }
     }
   ]

@@ -65,6 +65,7 @@ function App() {
       try {
         await axios.post(API_URL, book);
         setFavourites((prevFavorites) => [...prevFavorites, book]);
+        alert(`${book.volumeInfo.title} has been added to your favorites!`);
       } catch (error) {
         console.error('Error adding to favorites:', error);
       }
@@ -76,6 +77,7 @@ function App() {
     try {
       await axios.delete(`${API_URL}/${bookId}`);
       setFavourites(favourites.filter((favBook) => favBook.id !== bookId));
+      alert('The book has been removed from your favorites.');
     } catch (error) {
       console.error('Error deleting from favorites:', error);
     }
