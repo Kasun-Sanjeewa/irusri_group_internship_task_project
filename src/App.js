@@ -10,12 +10,12 @@ const API_URL = 'http://localhost:3001/favourites';
 
 function App() {
   const [bookResult, setBookResult] = useState([]);
-  const [loading, setLoading] = useState(false); // Loading state
-  const [searchTerm, setSearchTerm] = useState(''); // Current search term
-  const [page, setPage] = useState(0); // Pagination
-  const [hasMore, setHasMore] = useState(false); // More books available
-  const [favourites, setFavourites] = useState([]); // Favorites
-  const [isFavoritesView, setIsFavoritesView] = useState(false); // Toggle views
+  const [loading, setLoading] = useState(false);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [page, setPage] = useState(0);
+  const [hasMore, setHasMore] = useState(false);
+  const [favourites, setFavourites] = useState([]);
+  const [isFavoritesView, setIsFavoritesView] = useState(false);
 
   // Fetch favorite books from the JSON server on initial load
   useEffect(() => {
@@ -37,7 +37,7 @@ function App() {
     setPage(0);
     setBookResult([]);
     setHasMore(true);
-    setIsFavoritesView(false); // Switch to search results view
+    setIsFavoritesView(false);
     await loadBooks(searchQuery, 0);
   };
 
@@ -85,7 +85,7 @@ function App() {
 
   // Toggle to view favorites
   const handleShowFavorites = () => {
-    setIsFavoritesView(true); // Switch to favorites view
+    setIsFavoritesView(true);
   };
 
   return (
