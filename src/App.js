@@ -7,14 +7,15 @@ import Footer from './Components/Footer';
 import axios from 'axios';
 
 const API_URL = 'http://localhost:3001/favourites';
+
 function App() {
   const [bookResult, setBookResult] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [page, setPage] = useState(0);
-  const [hasMore, setHasMore] = useState(false);
-  const [favourites, setFavourites] = useState([]);
-  const [isFavoritesView, setIsFavoritesView] = useState(false);
+  const [loading, setLoading] = useState(false); // Loading state
+  const [searchTerm, setSearchTerm] = useState(''); // Current search term
+  const [page, setPage] = useState(0); // Pagination
+  const [hasMore, setHasMore] = useState(false); // More books available
+  const [favourites, setFavourites] = useState([]); // Favorites
+  const [isFavoritesView, setIsFavoritesView] = useState(false); // Toggle views
 
   // Fetch favorite books from the JSON server on initial load
   useEffect(() => {
@@ -36,7 +37,7 @@ function App() {
     setPage(0);
     setBookResult([]);
     setHasMore(true);
-    setIsFavoritesView(false);
+    setIsFavoritesView(false); // Switch to search results view
     await loadBooks(searchQuery, 0);
   };
 
@@ -58,7 +59,7 @@ function App() {
     loadBooks(searchTerm, nextPage * 20);
   };
 
-  // Add book to favorites 
+  // Add book to favorites (handled by JSON server)
   const addToFavourites = async (book) => {
     if (!favourites.find((favBook) => favBook.id === book.id)) {
       try {
@@ -70,8 +71,21 @@ function App() {
     }
   };
 
+  // Delete book from favorites
+  const deleteFromFavourites = async (bookId) => {
+    try {
+      await axios.delete(`${API_URL}/${bookId}`);
+      setFavourites(favourites.filter((favBook) => favBook.id !== bookId));
+    } catch (error) {
+      console.error('Error deleting from favorites:', error);
+    }
+  };
+
+
+
+  // Toggle to view favorites
   const handleShowFavorites = () => {
-    setIsFavoritesView(true);
+    setIsFavoritesView(true); // Switch to favorites view
   };
 
   return (
@@ -79,7 +93,7 @@ function App() {
       <NavBar getResults={getResults} showFavorites={handleShowFavorites} />
 
       {isFavoritesView ? (
-        <BookList bookResult={favourites} />
+        <BookList bookResult={favourites} onDeleteFavourite={deleteFromFavourites} isFavoritesView={isFavoritesView} />
       ) : (
         <>
           {bookResult.length === 0 && (
@@ -93,7 +107,7 @@ function App() {
             </div>
           )}
 
-          <BookList bookResult={bookResult} onAddFavourite={addToFavourites} />
+          <BookList bookResult={bookResult} onAddFavourite={addToFavourites} isFavoritesView={isFavoritesView} />
 
           {hasMore && !loading && (
             <button className="see-more-button" onClick={handleLoadMore}>

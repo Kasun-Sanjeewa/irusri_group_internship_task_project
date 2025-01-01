@@ -2,162 +2,8 @@
   "favourites": [
     {
       "kind": "books#volume",
-      "id": "TRUdyfwdaSoC",
-      "etag": "g7xhlYfLuIc",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/TRUdyfwdaSoC",
-      "volumeInfo": {
-        "title": "Java for Students",
-        "authors": [
-          "Doug Bell",
-          "Mike Parr"
-        ],
-        "publisher": "Pearson Educación",
-        "publishedDate": "2001",
-        "description": "Aware that many students need a careful introduction to programming and that they respond well to graphical illustration, this concise book adopts a visual approach to programming. Throughout the text, programs that use graphical images are emphasized to clearly demonstrate all the important programming principles. The authors use a spiral approach to programming concepts; introducing concepts simply early on, then in a more sophisticated way later, (e.g., objects are integrated throughout five chapters). Java for Students emphasizes the use of applets but also shows how to program free-standing applications. The authors have been careful to put together a text that covers the powerful features of Java and presents the language to students as both a fun and useful tool.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "9702601444"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9789702601449"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 670,
-        "printType": "BOOK",
-        "categories": [
-          "Computers"
-        ],
-        "averageRating": 4.5,
-        "ratingsCount": 4,
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.4.6.0.preview.1",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=TRUdyfwdaSoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=TRUdyfwdaSoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=TRUdyfwdaSoC&pg=PA16&dq=java&hl=&cd=4&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=TRUdyfwdaSoC&dq=java&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Java_for_Students.html?hl=&id=TRUdyfwdaSoC"
-      },
-      "saleInfo": {
-        "country": "LK",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "LK",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Java_for_Students-sample-pdf.acsm?id=TRUdyfwdaSoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=TRUdyfwdaSoC&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "... <b>Java</b> ( y la descripción del applet termina con &lt; / applet &gt; ) . La palabra code introduce el nom- bre del archivo que contiene el applet de <b>Java</b> ; en este caso es saludo.class . Las palabras width y height especifican el tamaño del área&nbsp;..."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "x8BvqSRbR3cC",
-      "etag": "LbbbA9evaDY",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/x8BvqSRbR3cC",
-      "volumeInfo": {
-        "title": "Java For Dummies",
-        "authors": [
-          "Barry A. Burd"
-        ],
-        "publisher": "John Wiley & Sons",
-        "publishedDate": "2011-03-03",
-        "description": "Start building powerful programs with Java 6—fast! Get an overview of Java 6 and begin building your own programs Even if you're new to Java programming—or to programming in general—you can get up and running on this wildly popular language in a hurry. This book makes it easy! From how to install and run Java to understanding classes and objects and juggling values with arrays and collections, you will get up to speed on the new features of Java 6 in no time. Discover how to Use object-oriented programming Work with the changes in Java 6 and JDK 6 Save time by reusing code Mix Java and Javascript with the new scripting tools Troubleshoot code problems and fix bugs All on the bonus CD-ROM Custom build of JCreator and all the code files used in the book Bonus chapters not included in the book Trial version of Jindent, WinOne, and NetCaptor freeware System Requirements: For details and complete system requirements, see the CD-ROM appendix. Note: CD-ROM/DVD and other supplementary materials are not included as part of eBook file.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781118051061"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1118051068"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 386,
-        "printType": "BOOK",
-        "categories": [
-          "Computers"
-        ],
-        "averageRating": 4,
-        "ratingsCount": 1,
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.2.5.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=x8BvqSRbR3cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=x8BvqSRbR3cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=x8BvqSRbR3cC&pg=PA5&dq=java&hl=&cd=1&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=x8BvqSRbR3cC&dq=java&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Java_For_Dummies.html?hl=&id=x8BvqSRbR3cC"
-      },
-      "saleInfo": {
-        "country": "LK",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "LK",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Java_For_Dummies-sample-epub.acsm?id=x8BvqSRbR3cC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Java_For_Dummies-sample-pdf.acsm?id=x8BvqSRbR3cC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=x8BvqSRbR3cC&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "... <b>Java</b> For Dummies , 4th Edition , isn&#39;t like that . In this book , I illustrate each concept with a simple - yet- concrete program example . Part IV : Savvy <b>Java</b> Techniques If you&#39;ve tasted some <b>Java</b> and want more , you can find what you&nbsp;..."
-      }
-    },
-    {
-      "kind": "books#volume",
       "id": "Sv36Gm741L0C",
-      "etag": "lATC8yqAuNg",
+      "etag": "aJWp+xfIXMw",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/Sv36Gm741L0C",
       "volumeInfo": {
         "title": "Programming with Java",
@@ -229,53 +75,54 @@
     },
     {
       "kind": "books#volume",
-      "id": "SSyuJa04uv8C",
-      "etag": "E87gbOEcjtg",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/SSyuJa04uv8C",
+      "id": "TRUdyfwdaSoC",
+      "etag": "iaGxrO6Yugw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TRUdyfwdaSoC",
       "volumeInfo": {
-        "title": "Java 6 Programming Black Book, New Ed",
+        "title": "Java for Students",
         "authors": [
-          "Kogent Solution Inc."
+          "Doug Bell",
+          "Mike Parr"
         ],
-        "publisher": "Dreamtech Press",
-        "publishedDate": "2007-06-28",
-        "description": "This book is a one time reference and a solid introduction, written from the programmer s point of view that contains hundreds of examples covering every aspect of Java 6. It helps you master the entire spectrum of Java 6 from Generics to Security enhancements; from new applet deployment enhancements to Networking; from Servlets to XML; from Sound and Animation to database handling; from Java Naming from Internationalization to Dynamic Scripting and Groovy and much more.",
+        "publisher": "Pearson Educación",
+        "publishedDate": "2001",
+        "description": "Aware that many students need a careful introduction to programming and that they respond well to graphical illustration, this concise book adopts a visual approach to programming. Throughout the text, programs that use graphical images are emphasized to clearly demonstrate all the important programming principles. The authors use a spiral approach to programming concepts; introducing concepts simply early on, then in a more sophisticated way later, (e.g., objects are integrated throughout five chapters). Java for Students emphasizes the use of applets but also shows how to program free-standing applications. The authors have been careful to put together a text that covers the powerful features of Java and presents the language to students as both a fun and useful tool.",
         "industryIdentifiers": [
           {
             "type": "ISBN_10",
-            "identifier": "817722736X"
+            "identifier": "9702601444"
           },
           {
             "type": "ISBN_13",
-            "identifier": "9788177227369"
+            "identifier": "9789702601449"
           }
         ],
         "readingModes": {
           "text": false,
           "image": true
         },
-        "pageCount": 1628,
+        "pageCount": 670,
         "printType": "BOOK",
         "categories": [
-          "Java (Computer program language)"
+          "Computers"
         ],
-        "averageRating": 3.5,
-        "ratingsCount": 6,
+        "averageRating": 4.5,
+        "ratingsCount": 4,
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "1.9.7.0.preview.1",
+        "contentVersion": "1.4.6.0.preview.1",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=SSyuJa04uv8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=SSyuJa04uv8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=TRUdyfwdaSoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=TRUdyfwdaSoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=SSyuJa04uv8C&pg=PT3&dq=java&hl=&cd=5&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=SSyuJa04uv8C&dq=java&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Java_6_Programming_Black_Book_New_Ed.html?hl=&id=SSyuJa04uv8C"
+        "previewLink": "http://books.google.com/books?id=TRUdyfwdaSoC&pg=PA16&dq=java&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=TRUdyfwdaSoC&dq=java&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Java_for_Students.html?hl=&id=TRUdyfwdaSoC"
       },
       "saleInfo": {
         "country": "LK",
@@ -293,14 +140,14 @@
         },
         "pdf": {
           "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Java_6_Programming_Black_Book_New_Ed-sample-pdf.acsm?id=SSyuJa04uv8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          "acsTokenLink": "http://books.google.com/books/download/Java_for_Students-sample-pdf.acsm?id=TRUdyfwdaSoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=SSyuJa04uv8C&hl=&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=TRUdyfwdaSoC&hl=&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "... <b>Java</b> Beans 2.1 , JDBC 4.0 , RMI , Servlets , Dynamic <b>Java</b> Scripting , Groovy , JMX 1.4 , Generics , <b>Java</b> Web Services , and Internationalization Programming Black Book TM <b>Java</b> 6 Black Book is the one - time reference and solid&nbsp;..."
+        "textSnippet": "... <b>Java</b> ( y la descripción del applet termina con &lt; / applet &gt; ) . La palabra code introduce el nom- bre del archivo que contiene el applet de <b>Java</b> ; en este caso es saludo.class . Las palabras width y height especifican el tamaño del área&nbsp;..."
       }
     }
   ]
