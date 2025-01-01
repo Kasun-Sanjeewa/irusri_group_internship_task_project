@@ -28,10 +28,38 @@
   color: #61dafb;
 }
 
+.see-more-button {
+  background-color: #41a6e9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px auto;
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.see-more-button:hover {
+  background-color: #00ffaa;
+  transform: scale(1.05);
+}
+
+.see-more-button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
