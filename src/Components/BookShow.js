@@ -1,9 +1,10 @@
 import React from 'react';
 import './BookShow.css';
 
-export default function BookShow({ book }) {
+export default function BookShow({ book, onAddFavourite }) {
     const { title, authors, imageLinks, previewLink, averageRating } = book.volumeInfo;
 
+    // Function to render the star rating
     const renderStars = (rating) => {
         const fullStars = Math.floor(rating);
         const halfStar = rating % 1 >= 0.5;
@@ -31,9 +32,15 @@ export default function BookShow({ book }) {
             <a href={previewLink} target="_blank" rel="noopener noreferrer">
                 <img src={imageLinks?.thumbnail} alt="Book" />
             </a>
+
             <h3 className="book-title">{title}</h3>
             <p className="book-author">{authors?.join(', ') || 'Unknown Author'}</p>
+
             {averageRating && <div className="rating">{renderStars(averageRating)}</div>}
+
+            <button onClick={() => onAddFavourite(book)} className="add-favourite-button">
+                Add Favourite
+            </button>
         </div>
     );
 }

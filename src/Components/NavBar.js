@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import './NavBar.css'
+import React, { useState } from 'react';
+import './NavBar.css';
 
-export default function NavBar({ getResults }) {
+export default function NavBar({ getResults, showFavorites }) {
     const [value, setValue] = useState('');
     const handleSearch = (e) => {
         e.preventDefault();
@@ -9,9 +9,7 @@ export default function NavBar({ getResults }) {
             getResults(value);
             setValue('');
         }
-    }
-
-
+    };
 
     return (
         <nav className="navbar">
@@ -19,7 +17,6 @@ export default function NavBar({ getResults }) {
                 <a href="/" className="logo">
                     BookFinder
                 </a>
-
                 <form className="search-bar" onSubmit={handleSearch}>
                     <input
                         type="text"
@@ -27,9 +24,14 @@ export default function NavBar({ getResults }) {
                         value={value}
                         onChange={(e) => setValue(e.target.value)}
                     />
-                    <button type="submit" ><i className="fa-solid fa-magnifying-glass"></i></button>
+                    <button type="submit">
+                        <i className="fa-solid fa-magnifying-glass"></i>
+                    </button>
                 </form>
+                <button className="favorites-button" onClick={showFavorites}>
+                    My Books
+                </button>
             </div>
         </nav>
-    )
+    );
 }

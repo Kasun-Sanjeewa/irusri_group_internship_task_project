@@ -58,6 +58,20 @@
 }
 
 
+.favorites-button {
+    padding: 8px 16px;
+    background-color: #41a6e9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.favorites-button:hover {
+    background-color: #0086c3;
+}
 
 
 @media screen and (min-width: 1200px) {

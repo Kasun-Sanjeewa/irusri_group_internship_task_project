@@ -14,7 +14,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 350px;
-    height: 480px;
+    height: 510px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -67,4 +67,21 @@
 .rating .far,
 .rating .fas.fa-star-half-alt {
     font-family: "Font Awesome 5 Free";
+}
+
+
+.add-favourite-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #41a6e9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.add-favourite-button {
+    background-color: #0086c3;
 }
