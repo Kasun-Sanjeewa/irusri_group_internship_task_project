@@ -22,6 +22,8 @@ function App() {
     fetchFavorites();
   }, []);
 
+
+
   const fetchFavorites = async () => {
     try {
       const response = await axios.get(API_URL);
@@ -30,6 +32,8 @@ function App() {
       console.error('Error fetching favorites:', error);
     }
   };
+
+
 
   // Get search results based on the query
   const getResults = async (searchQuery) => {
@@ -40,6 +44,8 @@ function App() {
     setIsFavoritesView(false);
     await loadBooks(searchQuery, 0);
   };
+
+
 
   // Load books based on search query and pagination
   const loadBooks = async (searchQuery, startIndex) => {
@@ -52,12 +58,16 @@ function App() {
     setLoading(false);
   };
 
+
+
   // Load more books when scrolling down
   const handleLoadMore = () => {
     const nextPage = page + 1;
     setPage(nextPage);
     loadBooks(searchTerm, nextPage * 20);
   };
+
+
 
   // Add book to favorites (handled by JSON server)
   const addToFavourites = async (book) => {
@@ -71,6 +81,8 @@ function App() {
       }
     }
   };
+
+
 
   // Delete book from favorites
   const deleteFromFavourites = async (bookId) => {
