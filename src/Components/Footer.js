@@ -10,9 +10,9 @@ export default function Footer() {
 
 
                 <div className="footer-links">
-                    <a href="#about" className="footer-link"><i className="fa-brands fa-square-github"></i></a>
-                    <a href="#contact" className="footer-link"><i className="fa-brands fa-linkedin"></i></a>
-                    <a href="#contact" className="footer-link"><i className="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://github.com/Kasun-Sanjeewa" className="footer-link" target='_blank'><i className="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kasun-sanjeewa-200152277/" className="footer-link" target='_blank'><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/kasun.sanjeewa.7543653?mibextid=ZbWKwL" className="footer-link" target='_blank'><i className="fa-brands fa-square-facebook"></i></a>
                 </div>
             </div>
         </footer>
