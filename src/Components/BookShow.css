@@ -99,3 +99,11 @@
 .delete-favourite-button:hover {
     background-color: darkred;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .cardList {
+        margin-top: 170px;
+    }
+}
