@@ -6,7 +6,10 @@
     align-items: center;
     color: white;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
 }
 
@@ -29,6 +32,8 @@
 
 .search-bar {
     display: flex;
+    margin-right: 80px;
+
 }
 
 .search-bar input {
@@ -102,6 +107,7 @@
 
     .logo {
         font-size: 26px;
+        margin-left: 30px;
     }
 
 
@@ -123,6 +129,7 @@
 
     .logo {
         font-size: 26px;
+        margin-left: 30px;
     }
 
 
@@ -139,11 +146,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 10px 10px;
+        padding: 10px 20px;
     }
 
     .logo {
         font-size: 20px;
+        margin-right: 75px;
+    }
+
+    .navbar-container {
+        width: 100%;
+
     }
 
     .search-bar input {

@@ -3,6 +3,7 @@ import './App.css';
 import fetchBooks from './Components/API';
 import BookList from './Components/BookList';
 import NavBar from './Components/NavBar';
+import Footer from './Components/Footer';
 
 function App() {
   const [bookResult, setBookResult] = useState([]);
@@ -42,12 +43,26 @@ function App() {
   return (
     <>
       <NavBar getResults={getResults} />
+
+      {bookResult.length === 0 && (
+        <div className="empty-state">
+          <div className="empty-background">
+            <div className="quote">
+              <p>"A room without books is like a body without a soul." - Marcus Tullius Cicero</p>
+              <h1 >Find Your Book Here...</h1>
+            </div>
+          </div>
+        </div>
+      )}
+
       <BookList bookResult={bookResult} />
       {hasMore && !loading && (
         <button className="see-more-button" onClick={handleLoadMore}>
           See More
         </button>
       )}
+
+      {bookResult.length > 0 ? <Footer /> : null}
     </>
   );
 }
